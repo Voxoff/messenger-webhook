@@ -62,7 +62,3 @@ app.get('/webhook', (req, res) => {
     }
   }
 });
-
-server.listen(port, function() {
-    console.log("App is running on port " + port);
-});
